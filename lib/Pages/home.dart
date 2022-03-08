@@ -1,3 +1,5 @@
+// ignore_for_file: prefer_const_constructors
+
 import 'package:flutter/material.dart';
 
 class HomePage extends StatelessWidget {
@@ -5,9 +7,11 @@ class HomePage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    // ignore: prefer_const_constructors
     return Scaffold(
       backgroundColor: Colors.blue,
+      body: Center(
+        child: Text('Home Page', style: TextStyle(color: Colors.white, fontSize: 30)),
+      ),
     );
   }
 }
