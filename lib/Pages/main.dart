@@ -59,7 +59,7 @@ class _MainPageState extends State<MainPage> {
         key: navigationKey,
         onTap: (index) {
           setState(() {
-            this.index = index;
+            index = index;
           });
         },
         letIndexChange: (index) => true,
